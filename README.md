@@ -1,8 +1,10 @@
-# QWEL CRAFT TEMPLATE | Created by ― QWEL.DESIGN
+# Shooting Game | Created by ― QWEL.DESIGN
 
-これは、[QWEL.DESIGN](https://qwel.design/) の作品集 Creative Crafts の作品テンプレートです。
+宇宙空間でのシューティングゲームの実装に挑戦。  
+web上の情報を参照しました（過去作品のためURL等詳細情報を確認できませんでした）。  
+キーボードで操作。  
 
-[https://creative.qwel.design/](https://creative.qwel.design/)
+[https://qwel.design/creative/stg/](https://qwel.design/creative/stg/)
 
 ---
 
