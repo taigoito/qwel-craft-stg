@@ -242,9 +242,8 @@ button, input, select, textarea {
   line-height: 1.8;
   letter-spacing: 0;
 }
-.footer__item--github .icon--m {
-  width: 3.75rem;
-  height: 3.75rem;
+.footer__item .icon {
+  margin-right: 0.375rem;
 }
 .footer small {
   font-size: 0.875rem;
@@ -284,23 +283,76 @@ button, input, select, textarea {
   overflow: hidden;
   fill: currentColor;
 }
-
-.icon__cnt {
-  width: 100%;
-  height: 100%;
-  background: inherit;
-  fill: inherit;
-  pointer-events: none;
-  transform: translateX(0);
-  -ms-transform: translate(0.5px, -0.3px);
+.icon--md {
+  width: 2.25rem;
+  height: 2.25rem;
 }
-
-.icon--m {
+.icon--lg {
   width: 3rem;
   height: 3rem;
 }
+.icon__span {
+  position: relative;
+  display: block;
+  border-width: 0;
+  border-style: solid;
+  border-color: #ffffff;
+  transition: border-color 0.25s ease;
+}
+.icon--menu .icon__span {
+  width: 60%;
+  height: 20%;
+  margin: 40% 20%;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+}
 
-.icon--l {
-  width: 4.5rem;
-  height: 4.5rem;
+.icon--close .icon__span::before, .icon--close .icon__span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60%;
+  height: 4%;
+  margin: 48% 20%;
+  border: 1px solid #b3b3b3;
+  transform: rotate(-45deg);
+}
+.icon--close .icon__span::after {
+  transform: rotate(45deg);
+}
+
+.icon--chevron-up .icon__span {
+  width: 30%;
+  height: 30%;
+  margin: 35%;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  transform: rotate(45deg) translate(10%, 10%);
+}
+
+.icon--chevron-down .icon__span {
+  width: 30%;
+  height: 30%;
+  margin: 35%;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  transform: rotate(45deg) translate(-10%, -10%);
+}
+
+.icon--chevron-left .icon__span {
+  width: 30%;
+  height: 30%;
+  margin: 35%;
+  border-left-width: 2px;
+  border-bottom-width: 2px;
+  transform: rotate(45deg) translate(10%, -10%);
+}
+
+.icon--chevron-right .icon__span {
+  width: 30%;
+  height: 30%;
+  margin: 35%;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  transform: rotate(45deg) translate(-10%, 10%);
 }

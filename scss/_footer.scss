@@ -18,9 +18,8 @@
     align-items: center;
     @include smallText();
 
-    &--github .icon--m {
-      width: 3.75rem;
-      height: 3.75rem;
+    .icon {
+      margin-right: space(1);
     }
   }
 
